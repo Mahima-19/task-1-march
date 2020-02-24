@@ -80,6 +80,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="10dp"/>
         <EditText
+            android:id="@+id/edtFirstName"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/edittext_background"
@@ -92,6 +93,7 @@
             android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <EditText
+            android:id="@+id/edtLastName"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/edittext_background"            android:layout_margin="12dp"/>
@@ -103,8 +105,10 @@
             android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <EditText
+            android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:inputType="textEmailAddress"
             android:background="@drawable/edittext_background"
             android:layout_margin="12dp"/>
         <TextView
@@ -115,8 +119,10 @@
             android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <EditText
+            android:id="@+id/edtPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
+            android:inputType="textPassword"
             android:background="@drawable/edittext_background"            android:layout_margin="12dp"/>
         <TextView
             android:layout_width="match_parent"
@@ -126,11 +132,13 @@
             android:textSize="20dp"
             android:layout_marginLeft="10dp"/>
         <EditText
+            android:id="@+id/edtConfirmPassword"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@drawable/edittext_background"
             android:layout_margin="12dp"/>
         <Button
+            android:id="@+id/signUp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Sign Up"
