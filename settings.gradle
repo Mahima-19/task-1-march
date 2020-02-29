@@ -1,2 +1,2 @@
-include ':app', ':layouts', ':recyclerview', ':navigationdraweractivity', ':fragments', ':retrofitdemo'
+include ':app', ':layouts', ':recyclerview', ':navigationdraweractivity', ':fragments', ':retrofitdemo', ':localstorage', ':camerademo'
 rootProject.name='ADYPU-ANDROID'
