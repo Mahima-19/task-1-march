@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 new LinearLayoutManager(MainActivity.this);
 
         VersionAdapter adapter=
-                new VersionAdapter(MainActivity.this,getList(images,names));
+                new VersionAdapter(MainActivity.this,getList(images,names),this);
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setAdapter(adapter);
     }

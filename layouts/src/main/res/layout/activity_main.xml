@@ -53,15 +53,15 @@
             android:text="Save"
             android:backgroundTint="@color/orange"/>-->
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/purple"
-            android:text="Book It"
-            android:textColor="@color/white"
-            android:padding="15dp"
-            android:gravity="center"
-            android:textStyle="bold"
-            android:textSize="25dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:text="Book It"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
