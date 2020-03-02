@@ -34,6 +34,9 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.cardview:cardview:1.0.0'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
     implementation 'com.android.support:design:23.0.1'
 }

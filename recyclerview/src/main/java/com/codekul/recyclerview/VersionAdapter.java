@@ -12,11 +12,17 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+<<<<<<< HEAD
 
 import com.google.android.material.snackbar.Snackbar;
+=======
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
 
@@ -30,7 +36,11 @@ public class VersionAdapter extends RecyclerView.Adapter<VersionAdapter.VersionH
     public VersionAdapter(Context context, List<AndroidVersion> list, Activity activity) {
         this.context = context;
         this.list = list;
+<<<<<<< HEAD
         this.activity = activity;
+=======
+        this.activity=activity;
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
     }
 
     @NonNull
@@ -77,9 +87,54 @@ public class VersionAdapter extends RecyclerView.Adapter<VersionAdapter.VersionH
 
     }
 
+<<<<<<< HEAD
     private  void showDialogue(){
         final Dialog dialog=new Dialog(context);
         dialog.setContentView(R.layout.dialogue_image);
+=======
+
+
+        holder.getName().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                builder=new AlertDialog.Builder(context);
+                builder.setCancelable(false);
+                builder.setTitle("Logout");
+                builder.setMessage("Are you sure?");
+                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        activity.finish();
+                    }
+                });
+                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                });
+                AlertDialog alertDialog=builder.create();
+               // alertDialog.show();
+                showDialog();
+              /*  Toast.makeText(context, "position : "+position+
+                        " Name : "+list.get(position).getName(),
+                        Toast.LENGTH_SHORT).show();*/
+                /*Snackbar snackbar = Snackbar
+                        .make(holder.getLayout(), "position : "+position+
+                                " Name : "+list.get(position).getName(),
+                                Snackbar.LENGTH_LONG);
+
+                snackbar.show();*/
+            }
+        });
+
+
+    }
+
+    private void showDialog(){
+        final Dialog dialog=new Dialog(context);
+        dialog.setContentView(R.layout.dialog_logout);
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         dialog.setCanceledOnTouchOutside(false);
         dialog.setCancelable(false);
         Button btnYes=dialog.findViewById(R.id.btnYes);
@@ -117,6 +172,10 @@ public class VersionAdapter extends RecyclerView.Adapter<VersionAdapter.VersionH
 
         ImageView getImage(){
             return itemView.findViewById(R.id.imageView);
+        }
+
+        ConstraintLayout getLayout(){
+            return itemView.findViewById(R.id.singleCardConstraint);
         }
 
     }

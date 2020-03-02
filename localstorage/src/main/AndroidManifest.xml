@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.example.localstorage">
+=======
+    package="com.codekul.localstoarage">
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
 
     <application
         android:allowBackup="true"

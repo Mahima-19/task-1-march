@@ -4,4 +4,8 @@
         <domain includeSubdomains="true">dummy.restapiexample.com</domain>
         <base-config cleartextTrafficPermitted="true"></base-config>
     </domain-config>
+<<<<<<< HEAD
 </network-security-config>
+=======
+</network-security-config>
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8

@@ -7,37 +7,61 @@
 
     <fragment
         android:id="@+id/nav_home"
+<<<<<<< HEAD
         android:name="com.example.navigationdraweractivity.ui.home.HomeFragment"
+=======
+        android:name="com.codekul.navigationdraweractivity.ui.home.HomeFragment"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
+<<<<<<< HEAD
         android:name="com.example.navigationdraweractivity.ui.gallery.GalleryFragment"
+=======
+        android:name="com.codekul.navigationdraweractivity.ui.gallery.GalleryFragment"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
+<<<<<<< HEAD
         android:name="com.example.navigationdraweractivity.ui.slideshow.SlideshowFragment"
+=======
+        android:name="com.codekul.navigationdraweractivity.ui.slideshow.SlideshowFragment"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
+<<<<<<< HEAD
         android:name="com.example.navigationdraweractivity.ui.tools.ToolsFragment"
+=======
+        android:name="com.codekul.navigationdraweractivity.ui.tools.ToolsFragment"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_share"
+<<<<<<< HEAD
         android:name="com.example.navigationdraweractivity.ui.share.ShareFragment"
+=======
+        android:name="com.codekul.navigationdraweractivity.ui.share.ShareFragment"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
+<<<<<<< HEAD
         android:name="com.example.navigationdraweractivity.ui.send.SendFragment"
+=======
+        android:name="com.codekul.navigationdraweractivity.ui.send.SendFragment"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
 </navigation>

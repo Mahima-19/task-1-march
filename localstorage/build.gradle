@@ -2,11 +2,19 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 29
+<<<<<<< HEAD
     buildToolsVersion "29.0.3"
 
 
     defaultConfig {
         applicationId "com.example.localstorage"
+=======
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        applicationId "com.codekul.localstoarage"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         minSdkVersion 22
         targetSdkVersion 29
         versionCode 1

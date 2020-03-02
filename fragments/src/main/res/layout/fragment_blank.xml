@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+=======
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".BlankFragment">
 
+<<<<<<< HEAD
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
@@ -24,4 +29,23 @@
             android:id="@+id/edtName"/>
     </com.google.android.material.textfield.TextInputLayout>
 
+=======
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtName"
+            android:hint="Enter Text" />
+    </com.google.android.material.textfield.TextInputLayout>
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
 </androidx.constraintlayout.widget.ConstraintLayout>

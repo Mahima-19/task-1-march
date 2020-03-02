@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">LocalStorage</string>
+=======
+    <string name="app_name">localstoarage</string>
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
 </resources>

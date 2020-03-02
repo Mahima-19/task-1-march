@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 include ':app', ':layouts', ':recyclerview', ':navigationdraweractivity', ':fragments', ':retrofitdemo', ':localstorage', ':camerademo', ':finaltask'
+=======
+include ':app', ':layouts', ':recyclerview', ':navigationdraweractivity', ':fragments', ':retrofitdemo', ':localstorage', ':camerademo'
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
 rootProject.name='ADYPU-ANDROID'

@@ -5,5 +5,10 @@
         android:id="@+id/action_settings"
         android:orderInCategory="100"
         android:title="@string/action_settings"
+<<<<<<< HEAD
         app:showAsAction="never" />
+=======
+        android:icon="@drawable/ic_logout"
+        app:showAsAction="always" />
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
 </menu>

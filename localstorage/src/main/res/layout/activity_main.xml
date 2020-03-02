@@ -15,7 +15,11 @@
         android:layout_marginEnd="32dp"
         android:ems="10"
         android:inputType="textPersonName"
+<<<<<<< HEAD
         android:hint="Enter Name"
+=======
+        android:hint="Enter name"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +31,11 @@
         android:layout_marginTop="32dp"
         android:ems="10"
         android:inputType="textPersonName"
+<<<<<<< HEAD
         android:hint="Enter Username"
+=======
+        android:hint="Enter username"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         app:layout_constraintEnd_toEndOf="@+id/edtName"
         app:layout_constraintStart_toStartOf="@+id/edtName"
         app:layout_constraintTop_toBottomOf="@+id/edtName" />
@@ -39,8 +47,13 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
+<<<<<<< HEAD
         android:background="@color/colorPrimary"
         android:text="Save"
+=======
+        android:text="Save"
+        android:background="@color/colorPrimary"
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         android:textColor="#ffffff"
         app:layout_constraintEnd_toStartOf="@+id/btnGet"
         app:layout_constraintStart_toStartOf="parent"
@@ -66,6 +79,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
+<<<<<<< HEAD
+=======
+        android:text=""
+>>>>>>> 5765283bc32f6dea5d6e37d4cd866d47468fc9e8
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSave" />
